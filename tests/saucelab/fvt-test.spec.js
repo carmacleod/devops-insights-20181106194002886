@@ -38,7 +38,7 @@
       done();
     });
 
-		it("check report title", function(done) {
+		it("check weather report title", function(done) {
       driver.get(DEMODRAURL).then(function() {
         driver.getTitle().then(function(title) {
           assert.equal(title, 'DemoDRA - Current Weather');
